@@ -53,5 +53,5 @@ static_resources:
               - endpoint:
                   address:
                     socket_address:
-                      address: host.docker.internal:50000
-                      
+                      address: --add-host=host.docker.internal:host-gateway
+                      port_value: 50000
