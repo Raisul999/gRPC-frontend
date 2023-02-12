@@ -7,5 +7,5 @@ services:
     ports:
       - "9901:9901"
       - "8080:8080"
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+    environment:
+      host: 172.17.0.1
