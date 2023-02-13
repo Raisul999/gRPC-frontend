@@ -6,6 +6,5 @@ services:
       - ./envoy.yaml:/etc/envoy/envoy.yaml
     ports:
       - "9901:9901"
-      - "81:8080"
-    environment:
-      host: 172.17.0.1
+      - "10000:10000"
+   

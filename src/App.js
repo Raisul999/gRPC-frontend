@@ -4,7 +4,7 @@ import { useState, useRef } from 'react'
 import Header from './components/Header/Header'
 import ChatPage from './pages/ChatPage/ChatPage'
 
-const client = new ChatServiceClient('http://localhost:8080', null, null)
+const client = new ChatServiceClient('http://localhost:10000', null, null)
 
 function App() {
   // console.log(client)
